@@ -1,0 +1,675 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    height: 74px;
+    width: 83px;
+    margin-bottom: -14px;
+    border-radius: 50%;
+}
+
+.margin-top{
+    margin-top: 129px;
+}
+
+#intro_content{
+    font-size: 53px;
+}
+
+.intro-img{
+    height: 560px;
+    margin-top: -88px;
+    width: 619px;
+    margin-left: 35px;
+}
+.intro-bg{
+    background-color: rgb(47, 12, 80);
+}
+.blue{
+    color: rgb(105, 105, 230);
+}
+.white{
+    color: white;
+}
+.heading{
+    color: white;
+    background-color: black;
+}
+
+.white-bg{
+    background-color: white;
+}
+.wheat{
+    background-color: #f8f8f8;
+}
+.black-bg{
+    background-color: black;
+}
+.login-btn{
+    padding: 5px 13px 8px 13px;
+    background-color: rgb(47, 12, 80);
+    border: none;
+    font-size: 19px;
+    font-weight: 700;
+}
+.login-btn:hover{
+    padding: 5px 13px 8px 13px;
+    background-color: rgb(92, 21, 158);
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 700;
+}
+#mlogin{
+    text-decoration: none;
+    color: white;
+}
+.start-btn{
+    padding: 12px 24px 12px 23px;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 9px;
+}
+.apt-btn{
+    padding: 12px 24px 12px 23px;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 9px;
+    background-color: rgb(47, 12, 80);
+    color: white;
+    border: solid 1px white;
+    margin-left: 9px;  
+}
+.apt-btn:hover{
+    padding: 12px 24px 12px 23px;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 9px;
+    background-color: white;
+    color: black;
+    border: solid 1px white;
+    margin-left: 9px;  
+}
+a{
+    text-decoration: none;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the button that triggers the dropdown */
+.dropdown1-button {
+    padding: 2px;
+    /* background-color: #252525; */
+    color: darkgray;
+    font-size: 16px;
+    margin-top: -3px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown1-button:hover {
+    color: rgb(105, 105, 230);
+}
+
+/* Style for the dropdown content */
+.dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin: 1px 1px 1px -71px;
+    border-radius: 13px;
+    padding: 4px 23px 8px 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Style for individual dropdown items */
+.dropdown-item1 {
+    padding: 11px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Change color on hover for dropdown items */
+.dropdown-item1:hover {
+    font-weight: 600;
+}
+
+/* Show the dropdown content when hovering over the dropdown container */
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+
+
+.services{
+    font-size: 40px;
+    font-weight: 700;
+}
+.ser-height{
+    height: 438px;
+}
+.ser-top{
+    margin-top: 112px;
+}
+.ser-box{
+    margin-left: 53px;
+}
+.i_size1{
+    font-size: 23px;
+    margin: 73px 1px 13px 7px;
+    cursor: pointer;
+}
+.i_size2{
+    font-size: 23px;
+    margin: 14px 1px 13px 7px;
+    cursor: pointer;
+}
+
+
+
+.test-height{
+    height: 550px;
+}
+.test-head-height{
+    margin-top: 77px;
+}
+.review-margin{
+    margin-top: 59px;
+}
+.test-head-font{
+    font-weight: 800;
+    font-size: 34px;
+}
+.test-font{
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+.ad-font{
+    font-size: 12px;
+}
+.star{
+    height: 48px;
+    width: 169px;
+    margin-left: -10px;
+}
+
+
+
+.news-height{
+    height: 983px;
+}
+.news-box{
+    height: 576px;
+    width: 365px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.mg{
+    margin-left: 8px;
+    margin-right: -50px;
+}
+.text-pd{
+     padding: 2px 25px 1px 25px;
+}
+.news-img{
+    height: 245px;
+    width: 365px;
+}
+.news-user{
+    height: 58px;
+    width: 67px;
+    margin-top: -7px;
+    margin-left: 15px;
+}
+.bg{
+    background-color: #2f2f8e;
+    color: white;
+    height: 20px;
+    width: 59px;
+    border-radius: 12px;
+    padding: 0px 0px 11px 13px;
+    margin: 10px 5px 14px 22px;
+    font-size: 13px;
+}
+
+
+
+.footer-height{
+    height: 318px;
+}
+.footer-font-h{
+    font-weight: 700;
+}
+.footer-font-l{
+    font-weight: 100;
+    color: white;
+}
+.footer-font-l:hover{
+    font-weight: 100;
+    color: white;
+}
+
+
+/* -------------------------------------------------- Patient Login CSS------------------------------------------------------------- */
+.form{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 521px;
+    margin: 66px 1px 99px 1px;
+    border-radius: 11px;
+}
+.formh{
+    margin: 29px 77px 26px 148px;
+    font-size: 35px;
+    font-style: italic;
+}
+label{
+    margin: 17px 53px -2px 43px;
+    font-size: 13px;
+    font-weight: 400;
+    color: slategrey;
+}
+input{
+    margin: 8px 53px 10px 43px;
+    padding: 5px 1px 5px 12px;
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+#show-password{
+    margin: 34px 1px 16px 435px;
+    cursor: pointer;
+    color: lightgray;
+    position: absolute;
+}
+#rem{
+    margin: 3px 2px 7px 44px;
+}
+#signup{
+    margin: 13px 53px 10px 43px;
+    padding: 11px 1px 11px 1px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+}
+#signup:hover{
+    margin: 13px 53px 10px 43px;
+    padding: 11px 1px 11px 1px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(181, 241, 16);
+    border: none;
+}
+#forget{
+    margin: -22px 1px 28px 370px;
+    font-size: 13px;
+}
+#sin{
+    font-size: 13px;
+    font-weight: 400;
+    margin: -3px 1px 60px 177px;
+}
+#terms{
+    margin: -26px 2px 14px 61px;
+    font-size: 12px;
+}
+
+/* ----------------------------------------------------------------Admin login------------------------------------------------------- */
+.ad{
+    background-color: #e3dbdb;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 521px;
+    margin: 66px 1px 99px 1px;
+    border-radius: 11px;
+}
+.aformh{
+    margin: 29px 77px 26px 150px;
+    font-size: 35px;
+    font-style: italic;
+}
+label{
+    margin: 17px 53px -2px 43px;
+    font-size: 13px;
+    font-weight: 400;
+    color: slategrey;
+}
+input{
+    margin: 8px 53px 10px 43px;
+    padding: 5px 1px 5px 12px;
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+#ashow-password{
+    margin: 62px 1px 16px 435px;
+    cursor: pointer;
+    color: lightgray;
+    position: absolute;
+}
+#rem{
+    margin: 3px 2px 7px 44px;
+}
+#asignup{
+    margin: -27px 53px 53px 43px;
+    padding: 11px 1px 11px 1px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+}
+#signup:hover{
+    margin: 13px 53px 10px 43px;
+    padding: 11px 1px 11px 1px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(181, 241, 16);
+    border: none;
+}
+#aforget{
+    margin: -22px 1px 71px 370px;
+    font-size: 13px;
+}
+#sin{
+    font-size: 13px;
+    font-weight: 400;
+    margin: -3px 1px 60px 177px;
+}
+#terms{
+    margin: -26px 2px 14px 61px;
+    font-size: 12px;
+}
+
+/*------------------------------------------------------------------Sign up CSS---------------------------------------------------- */
+
+.Sign-up-heading{
+    margin: 29px 77px 26px 207px;
+    font-size: 35px;
+    font-style: italic;
+}
+#Signup-label{
+    margin: 17px 53px -2px 43px;
+    font-size: 13px;
+    font-weight: 400;
+    color: slategrey;
+}
+#Signup-input{
+    margin: 8px 53px 2px 43px;
+    padding: 5px 1px 5px 12px;
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+#rem{
+    margin: 3px 2px 7px 44px;
+}
+#signup{
+    margin: 13px 53px 10px 43px;
+    padding: 11px 1px 11px 1px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+}
+#signup:hover{
+    margin: 13px 53px 10px 43px;
+    padding: 11px 1px 11px 1px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(181, 241, 16);
+    border: none;
+}
+#show1-password{
+    margin: 290px 1px 16px 435px;
+    cursor: pointer;
+    color: lightgray;
+    position: absolute;
+}
+#forget{
+    margin: -22px 1px 28px 370px;
+    font-size: 13px;
+}
+#sin{
+    font-size: 13px;
+    font-weight: 400;
+    margin: -3px 1px 60px 177px;
+}
+#terms{
+    margin: -21px 2px 14px 61px;
+    font-size: 12px;
+}
+
+/*----------------------------------------------------- Forget--------------------------------------------------------------------- */
+
+.forget-heading{
+    margin: 29px 77px 26px 126px;
+    font-size: 38px;
+    font-style: italic;
+}
+#forget-msg{
+    font-size: 14px;
+    margin: -18px 87px 7px 61px;
+    color: darkgrey;
+}
+label{
+    margin: 17px 47px -2px 43px;
+    font-size: 13px;
+    font-weight: 400;
+    color: slategrey;
+}
+input{
+    margin: 8px 53px 10px 43px;
+    padding: 5px 1px 5px 12px;
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+#rem{
+    margin: 3px 2px 7px 44px;
+}
+#reset-btn{
+    margin: 13px 53px 10px 43px;
+    padding: 11px 1px 11px 1px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+}
+#reset-btn:hover{
+    margin: 13px 53px 10px 43px;
+    padding: 11px 1px 11px 1px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(181, 241, 16);
+    border: none;
+}
+#forget-sin{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 6px 1px 60px 193px;
+    color: darkgrey;
+}
+
+/*------------------------------------------------- Appointment----------------------------------------------------------------------- */
+.appt-form{
+    border-radius: 23px;
+    margin-bottom: 69px;
+}
+.appt-heading{
+    margin: 26px 0px 3px 79px;
+    font-size: 35px;
+    padding: 25px 1px 1px 1px;
+}
+.sel{
+    margin: 8px 1px 1px 39px;
+}
+.his{
+    margin-bottom: 171px;
+    margin-top: 82px;
+}
+.ap-form{
+    border-radius: 37px;
+}
+.appt-msg{
+    margin: 4px 0px 3px 82px;
+    font-size: 15px;
+    color: darkgrey;
+}
+#appt-btn{
+    margin: 25px 53px 55px 62px;
+    padding: 15px 118px 15px 111px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+}
+#appt-btn:hover{
+    margin: 25px 53px 55px 62px;
+    padding: 15px 118px 15px 111px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(181, 241, 16);
+    border: none;
+}
+.appt_img{
+    margin: -839px -873px 1px 594px
+}
+.default{
+    background-color: #d2caca;
+    color: #746e6e;
+}
+.default:hover{
+    background-color: #d2caca;
+    color: #746e6e;
+}
+.default:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: white;
+}
+/*---------------------------------------------------- login homepage -----------------------------------------------------------------*/
+
+.user_icon_size{
+    font-size: 22px;
+    color: lightslategrey;
+    margin: 17px 1px 1px 15px;
+    cursor: pointer;
+}
+.user_name{
+    margin: 2px 13px 1px 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+hr{
+    width: 216px;
+    height: 3px;
+    background-color: black
+}
+.bg-1{
+    background-color: #2f2f8e;
+}
+/* Style for the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the button that triggers the dropdown */
+.dropdown-button {
+    padding: 2px;
+    /* background-color: #252525; */
+    color: darkgray;
+    font-size: 16px;
+    margin-top: -3px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-button:hover {
+    color: rgb(105, 105, 230);
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin: 1px 1px 1px -71px;
+    border-radius: 13px;
+    padding: 4px 23px 8px 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Style for individual dropdown items */
+.dropdown-item {
+    padding: 11px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Change color on hover for dropdown items */
+.dropdown-item:hover {
+    font-weight: 600;
+}
+
+/* Show the dropdown content when hovering over the dropdown container */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.user_icon{
+    height: 41px;
+    width: 49px;
+    border-radius: 50%;
+    margin: 10px 1px 1px 111px;
+}
+
+
+
+/* ----------------------------------------------------------Update form------------------------------------------------------------ */
+
